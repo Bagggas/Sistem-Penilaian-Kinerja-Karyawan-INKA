@@ -1,0 +1,109 @@
+.jumbotron{
+  height: 100vh;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-top: 3vh !important;
+  background-image:url('../../img/corps.jpg');
+  background-repeat:no-repeat !important;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+
+#alert-admin{
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30%;
+  z-index: 1;
+}
+
+.alert-karyawan{
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30%;
+  z-index: 1;
+}
+
+.h3{
+  padding-bottom: 0px !important;
+}
+
+.card-body{
+  padding-top: 10px !important;
+}
+
+
+.dt-buttons{
+  padding-bottom: 10px !important;
+}
+
+.dataTables_paginate{
+  margin-top: -35px !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .jumbotron{
+    height: 120vh;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 3vh !important;
+    background-image:url('../../img/corps.jpg');
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #tabel-data_paginate{
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron{
+    height: 100vh;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 3vh !important;
+    background-image:url('../../img/corps.jpg');
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .jumbotron{
+    height: 130vh;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 3vh !important;
+    background-image:url('../../img/corps.jpg');
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+}

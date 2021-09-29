@@ -1,0 +1,123 @@
+div.dataTables_filter,
+div.dataTables_length {
+  padding: 15px;
+}
+
+.dt-button {
+  margin-top: 15px;
+}
+
+.dataTables_info {
+  margin-bottom: 15px;
+}
+
+.mdc-button {
+  margin-bottom: 15px;
+}
+
+/* jumbotron */
+.jumbotron {
+  margin-bottom: 30px !important;
+  background-image: url('../../img/corps.jpg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.navbar-custom {
+  background-color: rgb(56, 56, 56);
+}
+
+.dt-button-collection {
+  width: 75%;
+}
+
+
+#alert-custom {
+  position: fixed;
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 50px;
+  z-index: 9999;
+}
+
+#alert-admin {
+  position: fixed;
+  margin-left: 500px;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  z-index: 9999;
+}
+
+.alert-karyawan {
+  left: 0;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 30%;
+  z-index: 99999;
+}
+
+.table-wrap {
+  width: 159vh;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+  .table-wrap {
+    width: 109vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .table-wrap {
+    width: 108vh;
+  }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .table-wrap {
+    width: 80vh;
+  }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .table-wrap {
+    width: 57vh;
+  }
+}
+
+/* iphone */
+@media screen and (max-width: 576px) and (min-width: 480px) {
+  .table-wrap {
+    width: 62vh;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .table-wrap {
+    width: 50vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .table-wrap {
+    width: 46vh;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .table-wrap {
+    width: 30vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .table-wrap {
+    width: 30vh;
+  }
+}
